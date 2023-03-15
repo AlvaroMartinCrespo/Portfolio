@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Presentacion from './components/Presentacion';
 import Separacion from './components/Separacion';
 import Proyectos from './components/Projects';
+import Analiticas from './components/Analiticas';
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Analiticas />
       <footer className="bg-gray-800 text-white py-4 bottom-0">
         <Footer />
       </footer>

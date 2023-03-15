@@ -105,9 +105,9 @@ export default function Projects() {
           role="tabpanel"
           aria-labelledby="profile-tab-example"
         >
-          <section className="text-sm text-gray-300 flex justify-center items-center ">
+          <section className="text-sm text-gray-300 flex justify-center items-center gap-4">
             <div className="w-1/3">
-              <img src="../../public/img/icon-react.png" alt="" />
+              <img src="../../public/img/piano.png" alt="piano-img" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
               <p>
@@ -130,14 +130,18 @@ export default function Projects() {
           role="tabpanel"
           aria-labelledby="dashboard-tab-example"
         >
-          <section className="text-sm text-gray-300 flex justify-center items-center ">
+          <section className="text-sm text-gray-300 flex justify-center items-center gap-4 ">
             <div className="w-1/3">
-              <img src="../../public/img/icon-react.png" alt="" />
+              <img src="../../public/img/cat.png" alt="cat-img" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
-              <p>This application is a small piano script that allows you to play 5 different notes.</p>
+              <p>
+                This application performs 2 fetch requests to different APIs. The first API retrieves a random fact
+                about cats, while the second API retrieves an image of a cat containing the first word of the fact. The
+                retrieved information is then displayed on the screen.
+              </p>
               <a
-                href="https://github.com/AlvaroMartinCrespo/ReactProjects/tree/master/Piano"
+                href="https://github.com/AlvaroMartinCrespo/ReactProjects/tree/master/FactsCatSearch"
                 target="_blank"
                 className=" transition-all duration-300 hover:text-xl hover:text-violet-500  "
               >
@@ -152,17 +156,17 @@ export default function Projects() {
           role="tabpanel"
           aria-labelledby="settings-tab-example"
         >
-          <section className="text-sm text-gray-300 flex justify-center items-center ">
+          <section className="text-sm text-gray-300 flex justify-center items-center gap-4">
             <div className="w-1/3">
-              <img src="../../public/img/icon-react.png" alt="" />
+              <img src="../../public/img/movie.png" alt="movie-img" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
               <p>
-                This application is a small piano script that allows you to play 5 different notes. It was developed
-                using React and Tailwind technologies, ensuring optimal performance and an intuitive user interface.
+                This application makes a fetch request to an API in order to search for a movie. The retrieved
+                information is then displayed on the screen.
               </p>
               <a
-                href="https://github.com/AlvaroMartinCrespo/ReactProjects/tree/master/Piano"
+                href="https://github.com/AlvaroMartinCrespo/ReactProjects/tree/master/BuscadorPeliculas"
                 target="_blank"
                 className=" transition-all duration-300 hover:text-xl hover:text-violet-500  "
               >
@@ -182,12 +186,9 @@ export default function Projects() {
               <img src="../../public/img/icon-react.png" alt="" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
-              <p>
-                This application is a small piano script that allows you to play 5 different notes. It was developed
-                using React and Tailwind technologies, ensuring optimal performance and an intuitive user interface.
-              </p>
+              <p>Working ...</p>
               <a
-                href="https://github.com/AlvaroMartinCrespo/ReactProjects/tree/master/Piano"
+                href="https://media.istockphoto.com/id/169937776/es/foto/hombre-de-negocios-en-ropa-chimpanc%C3%A9.jpg?s=612x612&w=0&k=20&c=PluUMp8BS28vl9xJE0zZ3hm-7xnuiPEPpRYxPk6HOcQ="
                 target="_blank"
                 className=" transition-all duration-300 hover:text-xl hover:text-violet-500  "
               >
