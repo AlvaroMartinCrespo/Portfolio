@@ -3,23 +3,21 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Presentacion from './components/Presentacion';
 import Separacion from './components/Separacion';
+import Proyectos from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      {/* Header */}
       <header className="flex justify-center items-center my-14 ">
         <Nav />
       </header>
-      <main className="flex justify-center items-center my-16 flex-col">
-        {/* Presentación */}
-        <section className="presentacion my-16">
+      <main className="flex justify-center items-center my-12 flex-col">
+        <section className="presentacion my-12">
           <Presentacion />
         </section>
 
         <Separacion />
 
-        {/* Portofolio */}
         <section className="portfolio my-16">
           <div className="w-full flex justify-center items-center">
             <h1 className="text-center text-5xl font-bold font-mono">
@@ -28,6 +26,7 @@ function App() {
               </span>
             </h1>
           </div>
+          <Proyectos />
         </section>
 
         <Separacion />
