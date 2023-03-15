@@ -24,7 +24,7 @@ export default function Presentacion() {
           Let`s Talk
         </a>
       </div>
-      <img className="w-60 rounded-md" src="../public/img/img-presentacion.jpg" alt="img-presentacion" />
+      <img className="w-60 rounded-md" src="img/img-presentacion.jpg" alt="img-presentacion" />
     </div>
   );
 }

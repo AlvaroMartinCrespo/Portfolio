@@ -107,7 +107,7 @@ export default function Projects() {
         >
           <section className="text-sm text-gray-300 flex justify-center items-center gap-4">
             <div className="w-1/3">
-              <img src="../../public/img/piano.png" alt="piano-img" />
+              <img src="img/piano.png" alt="piano-img" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
               <p>
@@ -132,7 +132,7 @@ export default function Projects() {
         >
           <section className="text-sm text-gray-300 flex justify-center items-center gap-4 ">
             <div className="w-1/3">
-              <img src="../../public/img/cat.png" alt="cat-img" />
+              <img src="img/cat.png" alt="cat-img" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
               <p>
@@ -158,7 +158,7 @@ export default function Projects() {
         >
           <section className="text-sm text-gray-300 flex justify-center items-center gap-4">
             <div className="w-1/3">
-              <img src="../../public/img/movie.png" alt="movie-img" />
+              <img src="img/movie.png" alt="movie-img" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
               <p>
@@ -183,7 +183,7 @@ export default function Projects() {
         >
           <section className="text-sm text-gray-300 flex justify-center items-center ">
             <div className="w-1/3">
-              <img src="../../public/img/icon-react.png" alt="" />
+              <img src="img/icon-react.png" alt="" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
               <p>Working ...</p>
