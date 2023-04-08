@@ -6,6 +6,7 @@ import Separacion from './components/Separacion';
 import Proyectos from './components/Projects';
 import Analiticas from './components/Analiticas';
 import Tecnologias from './components/cardTecnologias';
+import Experience from './components/experience';
 
 function App() {
   return (
@@ -42,7 +43,7 @@ function App() {
               </span>
             </h1>
           </div>
-          <div>
+          <div className="w-full">
             <Tecnologias />
           </div>
         </section>
@@ -57,6 +58,9 @@ function App() {
                 Experiencia
               </span>
             </h1>
+          </div>
+          <div className="w-full">
+            <Experience />
           </div>
         </section>
       </main>
