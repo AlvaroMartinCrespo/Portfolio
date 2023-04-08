@@ -5,6 +5,7 @@ import Presentacion from './components/Presentacion';
 import Separacion from './components/Separacion';
 import Proyectos from './components/Projects';
 import Analiticas from './components/Analiticas';
+import Tecnologias from './components/cardTecnologias';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
                 Tecnologías
               </span>
             </h1>
+          </div>
+          <div>
+            <Tecnologias />
           </div>
         </section>
 

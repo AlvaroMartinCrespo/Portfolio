@@ -4,11 +4,11 @@ export default function Footer() {
       <div>
         <p className="flex justify-center items-center gap-5">
           <span className="flex justify-center items-center text-lg">
-            <img className="w-8" src="../public/img/icon-react.png" alt="react-logo" />
+            <img className="w-8" src="/img/icon-react.png" alt="react-logo" />
             React
           </span>
           <span className="flex justify-center items-center text-lg">
-            <img className="w-6" src="../public/img/vide-logo.svg" alt="react-logo" />
+            <img className="w-6" src="/img/vide-logo.svg" alt="react-logo" />
             Vite
           </span>
 
