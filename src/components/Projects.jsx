@@ -93,7 +93,7 @@ export default function Projects() {
               aria-controls="contacts-example"
               aria-selected="false"
             >
-              Proyecto4
+              Howeb
             </button>
           </li>
         </ul>
@@ -183,12 +183,15 @@ export default function Projects() {
         >
           <section className="text-sm text-gray-300 flex justify-center items-center ">
             <div className="w-1/3">
-              <img src="img/icon-react.png" alt="" />
+              <img src="img/howeb.png" alt="howeb" />
             </div>
             <div className=" flex w-2/3 justify-center items-center flex-col gap-9">
-              <p>Working ...</p>
+              <p className="p-10">
+                Howeb is an accommodation booking application that offers various options for different types of users.
+                Each user has access to specific functionalities that are tailored to their needs.
+              </p>
               <a
-                href="https://media.istockphoto.com/id/169937776/es/foto/hombre-de-negocios-en-ropa-chimpanc%C3%A9.jpg?s=612x612&w=0&k=20&c=PluUMp8BS28vl9xJE0zZ3hm-7xnuiPEPpRYxPk6HOcQ="
+                href="https://github.com/AlvaroMartinCrespo/howeb"
                 target="_blank"
                 className=" transition-all duration-300 hover:text-xl hover:text-violet-500  "
               >
