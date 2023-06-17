@@ -33,7 +33,7 @@ export default function Nav() {
               offset={-70}
               duration={500}
             >
-              Inicio
+              Inici
             </Link>
           </li>
           <li className="m-2">
