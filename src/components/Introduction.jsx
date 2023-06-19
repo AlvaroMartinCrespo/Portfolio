@@ -34,15 +34,10 @@ export default function Introduction() {
         </div>
         <div className="flex justify-center">
           <div className="absolute md:w-[50%]">
-            <img
-              data-aos="fade-right"
-              className="w-full scale-0"
-              src="../../public/img/splashWhite.png"
-              alt="splashWhite"
-            />
+            <img data-aos="fade-right" className="w-full scale-0" src="img/splashWhite.png" alt="splashWhite" />
           </div>
           <div className="z-50 flex justify-center">
-            <img className="w-[60%] md:w-[70%]" src="../../public/img/ejemploMe.png" alt="me" />
+            <img className="w-[60%] md:w-[70%]" src="img/ejemploMe.png" alt="me" />
           </div>
         </div>
       </div>
