@@ -9,14 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rewind-ui/core": "^0.8.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
     "@vercel/analytics": "0.1.11",
+    "aos": "^2.3.4",
     "flowbite": "1.6.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
     "react-scroll": "^1.8.9",
-    "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "tailwind": "4.0.0"
+    "tailwind": "4.0.0",
+    "tailwind-scrollbar": "^3.0.4",
+    "typed.js": "^2.0.16"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
