@@ -10,6 +10,7 @@ import Links from './components/links';
 import DownloadCV from './components/cv';
 import Jobs from './components/Jobs';
 import Studies from './components/Studies';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Analiticas />
       <Introduction />
       <Description />
+      <Skills />
       <Studies />
       <Jobs />
       <Links />
