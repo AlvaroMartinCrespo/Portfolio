@@ -60,7 +60,7 @@ export default function Description() {
                   project.name === 'AppDates'
               )
               .map((project) => (
-                <Accordion.Item anchor={project.id}>
+                <Accordion.Item key={project.id} anchor={project.id}>
                   <Accordion.Header className="font-bold">{project.name}</Accordion.Header>
                   <Accordion.Body>
                     <p>{project.description}</p>

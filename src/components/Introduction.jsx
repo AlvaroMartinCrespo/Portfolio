@@ -28,7 +28,7 @@ export default function Introduction() {
           <div className="flex justify-center items-center my-10 md:my-5">
             <span
               id="typed"
-              className="text-3xl text-center font-mono bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 text-transparent bg-clip-text "
+              className="text-2xl md:text-3xl text-center font-mono bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 text-transparent bg-clip-text "
             ></span>
           </div>
         </div>

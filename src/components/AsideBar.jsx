@@ -3,6 +3,7 @@ import { GoArrowDown } from 'react-icons/go';
 import { BsBook } from 'react-icons/bs';
 import { ImProfile } from 'react-icons/im';
 import { ImBriefcase } from 'react-icons/im';
+import { GiSkills } from 'react-icons/gi';
 export default function AsideBar() {
   return (
     <>
@@ -20,6 +21,14 @@ export default function AsideBar() {
             <i class="text-2xl ">
               <div className="hover:bg-slate-600 p-2 rounded-full flex justify-center items-center gap-1">
                 <ImBriefcase />
+                {/* <span>Links</span> */}
+              </div>
+            </i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-300 transition-colors duration-300">
+            <i class="text-2xl ">
+              <div className="hover:bg-slate-600 p-2 rounded-full flex justify-center items-center gap-1">
+                <GiSkills />
                 {/* <span>Links</span> */}
               </div>
             </i>
