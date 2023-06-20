@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   box-sizing: border-box;
   background-color: rgb(13, 19, 27);

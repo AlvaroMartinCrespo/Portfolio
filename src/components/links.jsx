@@ -15,7 +15,7 @@ export default function Links() {
     },
   ];
   return (
-    <section className="container mx-auto my-10 text-white">
+    <section id='links' className="container mx-auto my-10 text-white">
       <h2 className="text-5xl text-center font-bold bg-gradient-to-r from-gray-100 to-gray-700 text-transparent bg-clip-text underline-offset-8 underline decoration-2 decoration-amber-400">
         Links
       </h2>
