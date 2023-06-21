@@ -27,7 +27,7 @@ export default function Description() {
   }, []);
 
   return (
-    <section id="description" className="container mx-auto text-white my-20 md:my-44">
+    <section id="description" className="container mx-auto text-white my-20 md:my-32">
       <h2 className="text-5xl text-center font-bold bg-gradient-to-r from-gray-100 to-gray-700 text-transparent bg-clip-text underline-offset-8 underline decoration-2 decoration-amber-400">
         About Me.
       </h2>
@@ -39,8 +39,10 @@ export default function Description() {
           <p className="text-center font-bold">{user.location}</p>
         </div>
         <div className="flex flex-col items-center px-8 md:p-8 text-black gap-14">
-          <p className="text-white text-center italic">"{user.bio}"</p>
-
+          <p className="text-white text-center italic">
+            "{user.bio} using JavaScript and its various frameworks. JavaScript is a versatile programming language that
+            allows me to add functionality, interactivity, and responsiveness to web pages."
+          </p>
           <h2 className="text-white italic text-2xl font-bold text-start">Projects</h2>
           <Accordion
             defaultItem="item-1"
