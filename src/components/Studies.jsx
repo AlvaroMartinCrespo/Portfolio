@@ -7,7 +7,7 @@ export default function Studies() {
         Studies
       </h2>
       <div className="text-white flex justify-center flex-col items-center mt-10">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center px-10">
           <span className="w-[15px] h-[15px] bg-green-500 rounded-full"></span>
           <h2 className="text-2xl font-bold text-center px-3">Desarrollo Aplicaciones Web (DAW)</h2>
         </div>

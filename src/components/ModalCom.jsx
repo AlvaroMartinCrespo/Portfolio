@@ -13,7 +13,7 @@ export default function ModalCom() {
         open={open}
         onClose={() => setOpen(false)}
       >
-        <div className="w-full h-full bg-slate-800 text-white">
+        <div className="w-full h-full bg-slate-800 text-white p-4">
           <ul className="list-disc pl-10">
             <li>
               Desarrollar e integrar componentes software en el entorno del servidor web, empleando herramientas y
