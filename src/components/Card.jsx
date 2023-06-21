@@ -6,7 +6,7 @@ export default function Card({ name, url, description, image }) {
         <p className="text-gray-500 text-base">{description}</p>
       </div>
       <div className="flex justify-center">
-        <button className="<text-amber-400 font-bold py-2 px-4 rounded-lg shadow-md hover:bg-slate-800>">
+        <button className="text-amber-400 font-bold py-2 px-4 rounded-lg shadow-md hover:bg-slate-800">
           <a target="_blank" href={url}>
             Visit Me
           </a>
