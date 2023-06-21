@@ -23,7 +23,7 @@ export default function Jobs() {
               <h2 className="text-2xl font-bold">DSS Network</h2>
               <span className="mt-2 text-xs italic font-bold">"HTML, CSS, JavaScript"</span>
               <div className="grid grid-cols-1 md:grid-cols-2 my-10 items-center">
-                <p className="text-center p-5">
+                <p className="text-center p-6 text-xl">
                   My first job involved dedicating time to web design using HTML and CSS (Bootstrap). I utilized
                   JavaScript (jQuery) for some animations and page functions, including libraries, as well as working
                   with PHP.
@@ -36,7 +36,7 @@ export default function Jobs() {
             <div className="flex justify-center flex-col items-center">
               <h2 className="text-2xl font-bold">Personal Projects</h2>
               <span className="mt-2 text-xs italic font-bold">"ReactJS, NextJS, MongoDB, ..."</span>
-              <p className="my-5 px-16 md:px-40 text-center mt-10">
+              <p className="my-5 px-16 md:px-40 text-center mt-10 text-xl">
                 I am a technology enthusiast who is always eager to learn new technologies. I have completed several
                 projects in ReactJS and I am currently learning NextJS to have a full-stack profile. I am passionate
                 about front-end development with JavaScript and its various frameworks.

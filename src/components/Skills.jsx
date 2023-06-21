@@ -6,8 +6,8 @@ export default function Skills() {
       <h2 className="text-5xl text-center font-bold bg-gradient-to-r from-gray-100 to-gray-700 text-transparent bg-clip-text underline-offset-8 underline decoration-2 decoration-amber-400">
         Skills
       </h2>
-      <p className="text-center text-white mt-5 italic">"Passion for technology"</p>
-      <div className="mt-10 md:mt-14 flex justify-center  py-10 rounded-2xl text-white mx-3">
+      <p className="text-center text-white mt-10 font-bold md:mt-5 italic ">"Passion for technology"</p>
+      <div className="md:mt-10 flex justify-center py-10 rounded-2xl text-white mx-3">
         <div className="w-2/3 md:w-1/2 ">
           <Carousel
             showThumbs={false}
