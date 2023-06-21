@@ -1,7 +1,7 @@
 import { Tabs } from '@rewind-ui/core';
 export default function Jobs() {
   return (
-    <section id="jobs" className="container mx-auto my-10">
+    <section id="jobs" className="container mx-auto my-24">
       <h2 className="text-5xl text-center font-bold bg-gradient-to-r from-gray-100 to-gray-700 text-transparent bg-clip-text underline-offset-8 underline decoration-2 decoration-amber-400">
         Jobs
       </h2>
@@ -36,13 +36,14 @@ export default function Jobs() {
             <div className="flex justify-center flex-col items-center">
               <h2 className="text-2xl font-bold">Personal Projects</h2>
               <span className="mt-2 text-xs italic font-bold">"ReactJS, NextJS, MongoDB, ..."</span>
-              <p className="my-5 px-16 text-center">
+              <p className="my-5 px-16 md:px-40 text-center mt-10">
                 I am a technology enthusiast who is always eager to learn new technologies. I have completed several
                 projects in ReactJS and I am currently learning NextJS to have a full-stack profile. I am passionate
                 about front-end development with JavaScript and its various frameworks.
               </p>
               <a
-                className="text-amber-400 font-bold py-2 px-4 rounded-lg shadow-md hover:bg-slate-800"
+                target="_blank"
+                className="text-amber-400 font-bold py-2 px-4 rounded-lg shadow-md bg-slate-800 hover:bg-slate-600"
                 href="https://github.com/AlvaroMartinCrespo"
               >
                 Visit GitHub
