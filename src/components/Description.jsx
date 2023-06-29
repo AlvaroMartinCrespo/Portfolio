@@ -57,7 +57,7 @@ export default function Description() {
               .filter(
                 (project) =>
                   project.name === 'howeb' ||
-                  project.name === 'redSocial' ||
+                  project.name === 'basic-social-network' ||
                   project.name === 'ReactProjects' ||
                   project.name === 'AppDates'
               )
