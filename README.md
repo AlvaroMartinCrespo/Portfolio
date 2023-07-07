@@ -9,7 +9,8 @@ Puedes ver una demostración en vivo de mi portfolio [aquí](https://alvarodev.v
 ## Capturas de pantalla
 
 ![Captura de pantalla 1](public/img/screenshots/cap1.png)
-![Captura de pantalla 2](screenshot2.png)
+![Captura de pantalla 2](public/img/screenshots/cap2.png)
+![Captura de pantalla 2](public/img/screenshots/cap3.png)
 
 ## Características
 
