@@ -44,5 +44,5 @@ Puedes ver una demostración en vivo de mi portfolio [aquí](https://alvarodev.v
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes alguna sugerencia, por favor, abre un issue o envía una pull request.
 
 ## Contacto
-Si deseas contactarme, puedes enviarme un correo electrónico a tucorreo@example.com o visitar mi [sitio web](https://alvarodev.vercel.app/) para obtener más información.
+Si deseas contactarme, puedes enviarme un correo electrónico a alvaro.martin.crespo.00@gmail.com o visitar mi [sitio web](https://alvarodev.vercel.app/) para obtener más información.
 
