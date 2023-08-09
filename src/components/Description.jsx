@@ -58,8 +58,8 @@ export default function Description() {
                 (project) =>
                   project.name === 'howeb' ||
                   project.name === 'basic-social-network' ||
-                  project.name === 'ReactProjects' ||
-                  project.name === 'AppDates'
+                  project.name === 'weather-api' ||
+                  project.name === 'real-time-chat'
               )
               .map((project) => (
                 <Accordion.Item key={project.id} anchor={project.id}>
