@@ -9,10 +9,12 @@ import Experience from './components/experience';
 import DownloadCV from './components/donwloadCV';
 import Contact from './components/contact';
 import Footer from './components/Footer';
+import Analiticas from './components/Analiticas';
 
 function App() {
   return (
     <>
+      <Analiticas />
       <ArrowTop />
       <Navbar />
       <LandingImage />
