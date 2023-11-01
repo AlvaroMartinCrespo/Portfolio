@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 import LandingImage from './components/landingImage';
 import ArrowTop from './components/arrowTop';
 import AboutMe from './components/aboutMe';
-import Skills from './components/skills';
+import Skills from './components/Skills';
 import Studies from './components/studies';
 import Experience from './components/experience';
 import DownloadCV from './components/donwloadCV';
