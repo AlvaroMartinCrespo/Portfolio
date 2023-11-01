@@ -35,7 +35,7 @@ export default function LandingImage() {
               Contact Me
             </a>
             <div className="flex flex-col items-center mt-8">
-              <div className="relative w-6 h-6 mt-2">
+              <div className="relative w-10 h-10 mt-2">
                 <div className="absolute w-10 h-10 top-0 animate-bounce">
                   <svg
                     className="text-white"
