@@ -1,31 +1,87 @@
-import ModalCom from './ModalCom';
-
+import { useState } from 'react';
+import Modal from './modal';
 export default function Studies() {
-  return (
-    <section id="studies" className="container mx-auto my-10">
-      <h2 className="text-5xl text-center font-bold bg-gradient-to-r from-gray-100 to-gray-700 text-transparent bg-clip-text underline-offset-8 underline decoration-2 decoration-amber-400">
-        Studies
-      </h2>
-      <div className="text-white flex justify-center flex-col items-center mt-10">
-        <div className="flex justify-center items-center px-10">
-          <span className="w-[15px] h-[15px] bg-green-500 rounded-full"></span>
-          <h2 className="text-2xl font-bold text-center px-3">Desarrollo Aplicaciones Web (DAW)</h2>
-        </div>
+  const [showModal, setShowModal] = useState(false);
 
-        <div className="grid grid-cols-1 items-center mt-5 px-14 text-center ">
-          <div>
-            <p className="md:px-10 font-bold">
-              "Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando
-              tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de
-              accesibilidad, usabilidad y calidad exigidas en los estándares establecidos."
-            </p>
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+  return (
+    <>
+      <section className="container mx-auto my-10 p-10 ">
+        <div>
+          <h2 className="font-extrabold text-4xl">STUDIES</h2>
+        </div>
+        <div className="flex  gap-5 justify-start my-10 lg:px-10 flex-col">
+          <div className="flex justify-start gap-5 items-center">
+            <div className="bg-green-500 h-3 w-8 lg:h-6 lg:w-6 rounded-full"></div>
+            <div>
+              <h2 className="font-bold text-black text-xl lg:text-3xl ">
+                WEB APPLICATION DEVELOPMENT (WAD) / DESARROLLO DE APLICACIONES WEB (DAW)
+              </h2>
+            </div>
           </div>
-          <div className="flex justify-center mt-10 flex-col items-center">
-            <span className="mb-4">Aquí puede ver las competencias de dicho grado.</span>
-            <ModalCom />
+
+          <div className="flex justify-center ">
+            <button
+              onClick={openModal}
+              className="bg-blue-200 w-[10rem] text-black font-bold py-2 px-4 rounded hover:bg-blue-300 transition-all ease-in-out duration-200 hover:scale-105"
+            >
+              Competencies
+            </button>
+            <Modal showModal={showModal} closeModal={closeModal} />
           </div>
         </div>
-      </div>
-    </section>
+        <div className="flex items-center gap-5 justify-start my-10 lg:px-10">
+          <div className="bg-green-500 h-3 w-7 lg:h-6 lg:w-6 rounded-full"></div>
+          <div>
+            <h2 className="font-bold text-black text-xl lg:text-3xl ">
+              <a
+                className="hover:underline lg:no-underline underline"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/learning/certificates/edbcb204ed6d85ca5986554ddc2c05a99ccc8e6f5e68dff6d7809a93ce4905a8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4sXzSkkOQjiumQI%2FesXxbw%3D%3D"
+              >
+                FUNDAMENTOS PROFESIONALES DE DESARROLLO DE SOFTWARE (Link)
+              </a>
+            </h2>
+          </div>
+        </div>
+        <div className="flex items-center gap-5 justify-start my-10 lg:px-10">
+          <div className="bg-green-500 h-3 w-6 lg:h-6 lg:w-6 rounded-full"></div>
+          <div>
+            <h2 className="font-bold text-black text-xl lg:text-3xl ">
+              <a
+                className="hover:underline lg:no-underline underline"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.freecodecamp.org/certification/fcc9440f97a-bec0-43a7-ba32-d6b65bbea670/javascript-algorithms-and-data-structures"
+              >
+                ALGORITMOS EN JAVASCRIPT Y ESTRUCTURAS DE DATOS (Link)
+              </a>
+            </h2>
+          </div>
+        </div>
+        <div className="flex items-center gap-5 justify-start my-10 lg:px-10">
+          <div className="bg-green-500 h-3 w-3 lg:h-6 lg:w-6 rounded-full"></div>
+          <div>
+            <h2 className="font-bold text-black text-xl lg:text-3xl ">
+              <a
+                className="hover:underline lg:no-underline underline"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.freecodecamp.org/certification/fcc9440f97a-bec0-43a7-ba32-d6b65bbea670/responsive-web-design"
+              >
+                DISEÑO RESPONSIVO (Link)
+              </a>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

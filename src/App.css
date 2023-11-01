@@ -3,9 +3,9 @@
   width: 8px;
 }
 *::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 *::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(107, 103, 103);
   border-radius: 20px;
 }

@@ -1,32 +1,36 @@
 import './App.css';
-import Footer from './components/Footer';
-import Analiticas from './components/Analiticas';
-import Introduction from './components/Introduction';
-import ButtonScrollUp from './components/buttonScrollUp';
-import SeparationSection from './components/SeparationSection';
-import AsideBar from './components/AsideBar';
-import Description from './components/Description';
-import Links from './components/links';
-import DownloadCV from './components/cv';
-import Jobs from './components/Jobs';
-import Studies from './components/Studies';
-import Skills from './components/Skills';
+import Navbar from './components/navbar';
+import LandingImage from './components/landingImage';
+import ArrowTop from './components/arrowTop';
+import AboutMe from './components/aboutMe';
+import Skills from './components/skills';
+import Studies from './components/studies';
+import Experience from './components/experience';
+import DownloadCV from './components/donwloadCV';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
-    <main className="App">
-      <AsideBar />
-      <ButtonScrollUp />
-      <Analiticas />
-      <Introduction />
-      <Description />
+    <>
+      <ArrowTop />
+      <Navbar />
+      <LandingImage />
+      {/* Page */}
+      <span id="about"></span>
+      <AboutMe />
+      <span id="skills"></span>
       <Skills />
+      <span id="studies"></span>
       <Studies />
-      <Jobs />
-      <Links />
+      <span id="experience"></span>
+      <Experience />
+      <span id="cv"></span>
       <DownloadCV />
+      <span id="contact"></span>
+      <Contact />
       <Footer />
-    </main>
+    </>
   );
 }
 
