@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/navbar';
-import LandingImage from './components/LandingImage';
-import ArrowTop from './components/ArrowTop';
-import AboutMe from './components/AboutMe';
+import LandingImage from './components/landingImage';
+import ArrowTop from './components/arrowTop';
+import AboutMe from './components/aboutMe';
 import Skills from './components/Skills';
 import Studies from './components/Studies';
 import Experience from './components/Experience';
