@@ -20,7 +20,7 @@ export default function LandingImage() {
   return (
     <>
       <section>
-        <img className="object-cover w-screen h-[100dvh]" src="./img/landing.jpg" alt="image-landing" />
+        <img className="object-cover w-screen h-[100vh]" src="./img/landing.jpg" alt="image-landing" />
         <div className="absolute top-0 left-0 w-full h-full bg-gray-500 opacity-50"></div>
         <div className="absolute top-0 left-0 w-full h-full ">
           <div className="flex justify-center items-center h-screen flex-col gap-5">
