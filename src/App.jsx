@@ -1,14 +1,14 @@
 import './App.css';
-import Navbar from './components/navbar';
-import LandingImage from './components/landingImage';
-import ArrowTop from './components/arrowTop';
-import AboutMe from './components/aboutMe';
-// import Skills from './components/Skills';
-import Studies from './components/studies';
-import Experience from './components/experience';
-import DownloadCV from './components/donwloadCV';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import Navbar from './components/Navbar';
+import LandingImage from './components/LandingImage';
+import ArrowTop from './components/ArrowTop';
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import Studies from './components/Studies';
+import Experience from './components/Experience';
+import DownloadCV from './components/DonwloadCV';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <span id="about"></span>
       <AboutMe />
       <span id="skills"></span>
-      {/* <Skills /> */}
+      <Skills />
       <span id="studies"></span>
       <Studies />
       <span id="experience"></span>
