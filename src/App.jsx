@@ -5,7 +5,7 @@ import ArrowTop from './components/arrowTop';
 import AboutMe from './components/aboutMe';
 import Skills from './components/Skills';
 import Studies from './components/Studies';
-import Experience from './components/Experience';
+import Experience from './components/experience';
 import DownloadCV from './components/DonwloadCV';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
