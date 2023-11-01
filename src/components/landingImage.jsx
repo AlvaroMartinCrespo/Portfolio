@@ -7,8 +7,8 @@ export default function LandingImage() {
     const el = document.getElementById('typed');
     const typed = new Typed(el, {
       strings: ['WELCOME!'],
-      backDelay: 1000,
-      backSpeed: 50,
+      backDelay: 1500,
+      backSpeed: 200,
       typeSpeed: 150,
       cursorChar: '',
     });
