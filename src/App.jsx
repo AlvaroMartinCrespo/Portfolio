@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import LandingImage from './components/LandingImage';
 import ArrowTop from './components/ArrowTop';
 import AboutMe from './components/AboutMe';
