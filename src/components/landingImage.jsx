@@ -9,7 +9,7 @@ export default function LandingImage() {
       strings: ['WELCOME!'],
       backDelay: 1000,
       backSpeed: 50,
-      typeSpeed: 100,
+      typeSpeed: 150,
       cursorChar: '',
     });
     // Destroy instance
@@ -27,7 +27,7 @@ export default function LandingImage() {
             <p id="typed" className="text-white md:text-9xl text-6xl font-bold drop-shadow-xl">
               WELCOME!
             </p>
-            <p className="text-white md:text-5xl text-2xl font-bold drop-shadow-md text-center p-5">To my Portfolio.</p>
+            {/* <p className="text-white md:text-5xl text-2xl font-bold drop-shadow-md text-center p-5">To my Portfolio.</p> */}
             <a
               href="#contact"
               className="bg-blue-200 text-black font-bold py-2 px-4 rounded hover:bg-blue-300 transition-all ease-in-out duration-200 hover:scale-105"
