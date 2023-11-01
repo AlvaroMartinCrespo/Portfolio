@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 import LandingImage from './components/landingImage';
 import ArrowTop from './components/arrowTop';
 import AboutMe from './components/aboutMe';
-import Skills from './components/Skills';
+// import Skills from './components/Skills';
 import Studies from './components/studies';
 import Experience from './components/experience';
 import DownloadCV from './components/donwloadCV';
@@ -20,7 +20,7 @@ function App() {
       <span id="about"></span>
       <AboutMe />
       <span id="skills"></span>
-      <Skills />
+      {/* <Skills /> */}
       <span id="studies"></span>
       <Studies />
       <span id="experience"></span>
