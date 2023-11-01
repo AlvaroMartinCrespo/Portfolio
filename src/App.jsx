@@ -6,8 +6,8 @@ import AboutMe from './components/aboutMe';
 import Skills from './components/Skills';
 import Studies from './components/Studies';
 import Experience from './components/experience';
-import DownloadCV from './components/DonwloadCV';
-import Contact from './components/Contact';
+import DownloadCV from './components/donwloadCV';
+import Contact from './components/contact';
 import Footer from './components/Footer';
 
 function App() {
