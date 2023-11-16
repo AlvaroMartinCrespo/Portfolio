@@ -9,6 +9,9 @@ export default function DownloadCV() {
         <h2 className="font-extrabold text-4xl">DOWNLOAD CV</h2>
       </div>
       <div className="grid grid-cols-1 justify-items-center pt-10">
+        <div>
+          <img className="mb-10" src="img/curriculum.png" alt="curriculum" />
+        </div>
         <p className="text-center  text-xl">
           Feel free to download my resume to learn more about my background and qualifications.
         </p>
