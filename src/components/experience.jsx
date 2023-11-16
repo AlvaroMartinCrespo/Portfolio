@@ -23,6 +23,30 @@ export default function Experience() {
                 administration, authentication systems, and various JavaScript libraries. <br />
                 <br /> Here are some of my projects:
               </p>
+              <div className="flex justify-center lg:m-10 mb-10 flex-col items-center">
+                <div className="rounded lg:grayscale hover:grayscale-0 ease-in-out transition-all duration-300 hover:cursor-pointer">
+                  <div className="flex justify-center mb-5 flex-col items-center">
+                    <span className="uppercase font-bold">Academy</span>
+                    <span>
+                      Explore my Angular-based project with Firebase login. Seamlessly blending Angular's power with
+                      Firebase's secure authentication, it offers a user-friendly experience. Join in to witness the
+                      fusion of modern web technologies.
+                    </span>
+                  </div>
+                  <a
+                    className="flex justify-center"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={'https://lolacademy.vercel.app/'}
+                  >
+                    <img
+                      className="rounded-xl hover:scale-105 transition-all ease-in-out duration-300 shadow-lg w-[50rem] h-[20rem] object-cover"
+                      src={'projects/academy.png'}
+                      alt={'academy'}
+                    />
+                  </a>
+                </div>
+              </div>
               <div>
                 <PersonalProjects />
               </div>

@@ -30,8 +30,9 @@ export default function PersonalProjects() {
                   key={project.id}
                   className="rounded lg:grayscale hover:grayscale-0 ease-in-out transition-all duration-300 hover:cursor-pointer"
                 >
-                  <div className="flex justify-center mb-5">
+                  <div className="flex justify-center mb-5 flex-col">
                     <span className="uppercase font-bold">{project.name}</span>
+                    <span>{project.description}</span>
                   </div>
                   <a target="_blank" rel="noreferrer" href={'https://github.com/AlvaroMartinCrespo/' + project.name}>
                     <img
