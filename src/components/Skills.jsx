@@ -41,6 +41,18 @@ export default function Skills() {
       name: 'TAILWIND',
       image: './logos/tailwind.png',
     },
+    {
+      name: 'ANGULAR',
+      image: './logos/angular.png',
+    },
+    {
+      name: 'TYPESCRIPT',
+      image: './logos/typescript.png',
+    },
+    {
+      name: 'FIREBASE',
+      image: './logos/firebase.png',
+    },
   ];
 
   return (
