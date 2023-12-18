@@ -67,6 +67,21 @@ export default function Studies() {
           </div>
         </div>
         <div className="flex items-center gap-5 justify-start my-10 lg:px-10">
+          <div className="bg-green-500 h-3 w-6 lg:h-6 lg:w-6 rounded-full"></div>
+          <div>
+            <h2 className="font-bold text-black text-xl lg:text-3xl ">
+              <a
+                className="hover:underline lg:no-underline underline"
+                target="_blank"
+                rel="noreferrer"
+                href="https://freecodecamp.org/certification/fcc9440f97a-bec0-43a7-ba32-d6b65bbea670/front-end-development-libraries"
+              >
+                Front End Development Libraries (Link)
+              </a>
+            </h2>
+          </div>
+        </div>
+        <div className="flex items-center gap-5 justify-start my-10 lg:px-10">
           <div className="bg-green-500 h-3 w-3 lg:h-6 lg:w-6 rounded-full"></div>
           <div>
             <h2 className="font-bold text-black text-xl lg:text-3xl ">
