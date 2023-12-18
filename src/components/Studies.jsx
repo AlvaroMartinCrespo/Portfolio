@@ -76,7 +76,7 @@ export default function Studies() {
                 rel="noreferrer"
                 href="https://freecodecamp.org/certification/fcc9440f97a-bec0-43a7-ba32-d6b65bbea670/front-end-development-libraries"
               >
-                Front End Development Libraries (Link)
+                FRONT END DEVELOPMENT LIBRARIES (Link)
               </a>
             </h2>
           </div>
