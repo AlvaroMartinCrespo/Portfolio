@@ -62,6 +62,34 @@ export default function Experience() {
               </div>
             </div>
             <div className="py-10">
+              <h2 className="font-bold text-xl lg:text-3xl">February 2022 - March 2024</h2>
+            </div>
+            <div className="flex  items-center gap-3 justify-center">
+              <div className="bg-green-500 h-3 w-3 lg:h-5 lg:w-5 rounded-full"></div>
+              <h3 className="font-bold text-2xl">AGILIRO</h3>
+            </div>
+            <div className="lg:p-10 flex justify-center flex-col lg:flex-row">
+              <div className="my-10 lg:my-0">
+                <img className="rounded-xl w-[40rem]" src="./img/agiliro.png" alt="" />
+              </div>
+              <div className="flex flex-col gap-5">
+                <p className="text-xl lg:px-10 mb-10">
+                  Company where I worked during the second year of study of the degree in Web Application Development,
+                  and during this year.During this time, I developed my skills in the following areas:
+                </p>
+                <p className="text-xl lg:px-12">
+                  ● Creation of websites with an attractive and adaptable design (responsive design).
+                </p>
+                <p className="text-xl lg:px-12">
+                  ● Perfeccionamiento en el uso de HTML5 y CSS3, incluyendo frameworks como Bootstrap.
+                </p>
+                <p className="text-xl lg:px-12">
+                  ● Expansión de habilidades en JavaScript y PHP para agregar funcionalidades dinámicas.
+                </p>
+                <p className="text-xl lg:px-12">● Demonstrated ability to collaborate effectively in a team.</p>
+              </div>
+            </div>
+            <div className="py-10">
               <h2 className="font-bold text-xl lg:text-3xl">March 2023 - June 2023</h2>
             </div>
             <div className="flex  items-center gap-3 justify-center">
