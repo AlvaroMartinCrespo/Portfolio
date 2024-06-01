@@ -33,7 +33,7 @@ function App() {
         <DownloadCV />
         <span id="contact"></span>
         <Contact />
-        {/* ... rest of your components */}
+        <Footer/>
       </Suspense>
     </>
   );
